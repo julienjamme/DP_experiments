@@ -6,7 +6,7 @@ from utils.distributions import laplace_pdf
 
 b_1 = 1.
 b_2 = 2.
-mu = 1.
+mu = 0.
 bounds = -5, 5
 cont_support = np.linspace(*bounds, num=1000)
 
